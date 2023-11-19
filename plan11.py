@@ -16,9 +16,11 @@
 # for d in data:
 #     print(d)
 
+#file=open('F:\django-5\plan 11\plan111.txt','r') #read
+#file=open('F:\django-5\plan 11\plan111.txt','w') #write
+file=open('F:\django-5\plan 11\plan111.txt','a') # append
 
-file=open('F:\django-5\plan 11\plan111.txt','w')
-file.write('welcom')
+file.write('\n welcom2')
 
 file.close()
 

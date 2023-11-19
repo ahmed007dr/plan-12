@@ -10,11 +10,16 @@
 #     print('please enter number')
 
 
-file=open('F:\django-5\plan 11\plan11.txt')
+#file=open('F:\django-5\plan 11\plan11.txt')
+# data = file.readlines()
 
-data = file.readlines()
+# for d in data:
+#     print(d)
 
-for d in data:
-    print(d)
+
+file=open('F:\django-5\plan 11\plan111.txt','w')
+file.write('welcom')
+
+file.close()
 
 

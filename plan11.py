@@ -15,7 +15,7 @@
 
 # for d in data:
 #     print(d)
-
+'''
 #file=open('F:\django-5\plan 11\plan111.txt','r') #read
 #file=open('F:\django-5\plan 11\plan111.txt','w') #write
 file=open('F:\django-5\plan 11\plan111.txt','a') # append
@@ -24,4 +24,6 @@ file.write('\n welcom2')
 
 file.close()
 
-
+'''
+with open ('F:\django-5\plan 11\plan111.txt','a') as file:
+    file.write('\n welcome to python ')

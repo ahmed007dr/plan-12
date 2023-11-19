@@ -11,6 +11,10 @@
 
 
 file=open('F:\django-5\plan 11\plan11.txt')
-print(file.readline())
+
+data = file.readlines()
+
+for d in data:
+    print(d)
 
 
